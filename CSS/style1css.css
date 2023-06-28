@@ -1,0 +1,1107 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+@import url("grid.css");
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.size_restriction {
+	max-width: 960px; 
+}
+
+/*------------------------------------------------------NO SE DE DONDE ES ESTA COSA*/
+div div ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+/*------------------------------------------------------NO SE DE DONDE ES ESTA COSA*/
+
+/*------------------------------------------------------PAGINA--NOSOTROS*/
+#izquierdo_2 {
+    background-color: #F0A83E;
+    width: 500px;
+    height: 420px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+    /*float: left;*/
+    /*margin-left: 160px;*/
+    /*margin-top: 15px;*/
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 5px 20px #4C718B;
+    box-shadow: 10px 5px 20px #4C718B;
+}
+#imagen_2 {
+    width: 85%;
+    height: auto;
+    padding-left: 35px;
+    padding-top: 34px;
+    border-radius: 20% 3% 11% 20% / 25% 17% 20% 25%;
+    border-collapse: collapse;
+
+}
+#derecho_2 {
+    background-color: #F0A83E;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    /*float: right;*/
+	    
+    width: 500px;
+    height: 420px;
+    /*margin-top: 15px;*/
+    /*margin-right: 160px;*/
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 5px 20px #4C718B;
+    box-shadow: 10px 5px 20px #4C718B;
+}
+#h2_nosotros {
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+#imagen_3 {
+    width: 85%;
+    height: auto;
+    padding-left: 35px;
+    padding-top: 34px;
+    border-radius: 21% 10% 15% 26% / 19% 27% 25% 15%;
+    border-collapse: collapse;
+}
+.texto_nos {
+    text-align: center;
+    color: #F2F2F2;
+    width: auto;
+    height: 40px;
+    margin-left: 26px;
+    margin-right: 26px;
+	margin-bottom: 26px;
+}
+#contenedor {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	gap: 55px;
+	width:auto;
+	height: auto;
+	margin: 5px 0px;
+	padding: 35px 51px 35px;
+    /*height: 540px;
+    width: 1430px;*/
+    overflow: hidden;
+    background-color: #F2F2F2;
+}
+#izquierda {
+    /*float: left;*/
+	max-width: 500px;
+   /* width: 500px;
+    height: 500px;*/
+    /*margin-left: 160px;*/
+ /*   margin-top: 40px;*/
+}
+#derecho {
+	max-width: 500px;
+    /*float: right;*/
+  /*  width: 500px;
+    height: 385px;*/
+   /* margin-right: 160px;*/
+    /*margin-top: 90px;*/
+}
+/*------------------------------------------------------CHECA TAMAÑO*/
+#contenedor_2 {
+    width: 1430px;
+    height: 520px;
+}
+#contenedor_3 {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+    background-color: #F2F2F2;
+   /* width: 1430px;
+    height: 465px;*/
+}
+#imagen_4 {
+    width: auto;
+    height: auto;
+    border-radius: 15px 40px 40px;
+   /* float: left;*/
+   /* margin-left: 56px;
+    margin-top: 45px;*/
+    -webkit-box-shadow: 10px 5px 20px #979797;
+    box-shadow: 10px 5px 20px #979797;
+}
+/*------------------------------------------------------PAGINA--NOSOTROS*/
+
+
+
+
+p {
+    max-width: 960px;
+    /*width: 500px;*/  /*CHECA AQUÍ*/
+    padding-bottom: 15px;
+}
+
+
+
+/*-----------AQUI VAN LAS CARACTERISTICAS DEL HEADING----------------*/
+body {background: linear-gradient(180deg,rgba(6,106,165,1.00) 11.17%,rgba(88,168,222,1.00) 30.33%)}
+.logo{
+    width: 220px;
+    height: auto;
+    /*    margin-left: 117.6px;
+*/    margin-top: -25px;
+    border-top-right-radius: 0px;
+    margin-bottom: -25px;
+    padding-left: 0px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.h1 {
+   color: #F2F2F2;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    height: auto;
+    width: 380px;
+    font-size: 20.36pt;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: auto;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.years{
+     padding-top: 16px;
+    padding-bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/*-----------AQUI EMPIEZAN LAS OPCIONES DEL RESPONSIVO----------------*/
+@media only screen and (max-width:940px){
+	.years{display: none;}
+	#img_1{width: 100%;}
+	#img_2{width: 100%;}
+	#img_3{width: 100%;}
+	nav.flex_nav {
+    	display: none;
+   		background-color: #0D1624;
+    	height: 100%;
+		width: 90%;
+		margin: 10px auto 0px;
+	}
+	input {display: none;}
+	input:checked ~ .flex_nav{display:block;}
+}
+
+ @media all and (min-width : 940px ){
+	 label{display: none;}
+	 input {display: none;}
+}
+/*-----------AQUI TERMINAN LAS OPCIONES DEL RESPONSIVO----------------*/
+
+/*-----------LO QUE SIGUE ES EL MENÚ DE HAMBURGUESA-------------------*/
+#men_menu{
+	display: flex;
+	max-width: 960px;
+	margin: 0px 20px -10px;
+	justify-content: center;
+	
+}
+.material-symbols-outlined {
+    color: #0D1624;
+    font-variation-settings: 'FILL' 0,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 48;
+    background-color: #F1A83E;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 51px;
+    font-size: x-large;
+    font-weight: 900;
+    text-align: center;
+}
+/*--------------------------------------------------------------------*/
+
+.contenedor_head{
+   display: flex;
+    max-width: 960px;
+	width: 90%;
+    /*border: 1px solid;*/
+    text-align: center;
+    flex-wrap: wrap;
+	gap: 2%; 
+	    justify-content: center;
+	align-content: center; 	
+}
+.contenedor_head > div{
+	padding: 20px;
+	/*box-shadow: 2px 2px 10px rgba(0,0,0,0.25);*/
+}
+.contendedor_navegacion > div{
+    height: 35px;
+    width: 392px;
+	
+}
+.flex_nav {
+   font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+    color: #F2F2F2;
+    font-style: italic;
+    font-weight: normal;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    align-items: center;
+    height: 60px;
+    justify-content: center;
+	row-gap: 15px;
+    column-gap: 15px;
+    font-size: 14pt;
+}
+#nav1 {
+	/*background-color: #066AA5;*/
+    flex-grow: 1;
+    text-align: center;
+    border-right: 3px solid #0D1624;
+    border-top-right-radius: 8px;
+   
+}
+#nav2 {
+	flex-grow: 2;
+	text-align: center;
+	border-right: 3px solid #0D1624;
+    border-top-right-radius: 8px;
+}
+#nav3 {
+	flex-grow: 3;
+	text-align: center;
+	border-right: 3px solid #0D1624;
+    border-top-right-radius: 8px;
+}
+#nav4 {
+	flex-grow: 2;
+	text-align: center;
+	border-right: 3px solid #0D1624;
+    border-top-right-radius: 8px;
+}
+#nav5 {
+	flex-grow: 1;text-align: center;
+border-right: 3px solid #0D1624;
+    border-top-right-radius: 8px;
+}
+a:link {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+a:hover {
+    color: #F1A83E;
+    text-decoration: none;
+}
+a:active {
+    color: #F1A83E;
+    background-color: #066AA5;
+    text-decoration: none;
+}
+a:visited{
+    color: #F1A83E;
+    text-decoration: line-through;
+    text-indent: 3px;
+}
+/*---------------------------------------------------------REVISAR AQUÍ EL FORMATO SE DESAJUSTA---------------*/
+section {
+    width: 70%;
+    height: auto;
+    padding: 45px 45px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10pt;
+}
+
+.section1{
+     background-color: #F2F2F2;
+	padding-bottom: 30px;
+}
+#img_1{
+    float: right;
+    margin-right: 5px;
+    margin-left: 35px;
+	margin-bottom: 35px;
+}
+#img_2 {
+    margin-bottom: 5px;
+    width: 60%;
+	min-width: 130px;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#img_3{
+	/*width: 410px;*/
+    float: left;
+    margin-right: 35px;
+    margin-left: 0px;
+	margin-bottom: 35px;
+}
+.section2{
+   background-color: #F1A83E;
+}
+#mapa{
+    border-top-left-radius: 44px;
+    border-bottom-right-radius: 44px;
+    float: right;
+	margin-right: 5px;
+    margin-left: 35px;
+	margin-bottom: 0px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*-----------AQUI EMPIEZA EL FOOTER-----------------*/
+.footer{
+	background-color: #066AA5;
+}
+.contenedor_footer{
+	display: flex;
+	justify-content: space-around;
+		width: 90%;
+
+	 /*max-width: 960px;*/
+    /*border: 1px solid;*/
+    text-align:left;
+	color: #F2F2F2;
+    font-family: 'Nunito Sans', sans-serif;
+	font-size: 12px;
+}
+#facebook {
+    width: 80px;
+    height: auto;
+    float: right;
+	margin: 10px;
+}
+#h6 {
+    font-size: 16px;
+    margin-top: 40px;
+    margin-right: 4px;
+    margin-bottom: 20px;
+}
+#siguenos_face{
+	padding: 10px;
+	font-weight: 700;
+	margin-top: 40px;
+	
+}
+/*---------------------------AQUI TERMINA LA DEL FONDO STANDING----------------------------*/
+
+
+/*------------------------------------------------------PAGINA--ACTIVIDADES ACADEMICAS*/
+#contenedor_6 {
+/*	max-width: 1065px;*/
+	margin-top: 10px;
+	background-color: #F2F2F2;
+    width: auto;
+    /*height: auto;*/
+	display: flex;
+    flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	
+}
+.text_act_aca{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+}
+
+#PDF8 {
+	
+	width: 50%;
+    max-width: 310px;
+    /*min-height: 251px;*/
+    background-color: #F0A83E;
+    margin-left: 360px;
+    border-radius: 15px;
+    margin-top: 30px;
+    -webkit-box-shadow: 10px 5px 20px #979797;
+    box-shadow: 10px 5px 20px #979797;
+}
+#PDF9 {
+
+	width: 50%;
+    max-width: 310px;
+    /*min-height: 251px;*/
+    background-color: #F0A83E;
+    border-radius: 15px;
+    margin-top: -251px;
+    -webkit-box-shadow: 10px 5px 20px #979797;
+    box-shadow: 10px 5px 20px #979797;
+    /*float: right;*/
+/*    margin-right: 360px;*/
+}
+.iconos2 {
+    width: 145px;
+    height: auto;
+    margin-top: 18px;
+    margin-left: 81px;
+}
+.Text_PDF2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #F2F2F2;
+    width: 235px;
+    height: 38px;
+    text-align: center;
+    margin-top: 11px;
+    margin-left: 39px;
+}
+
+#h2_alumnos {
+	 font-family: 'Nunito Sans', sans-serif;
+	font-size: 22pt;
+	margin-bottom: 35px;
+    font-weight: 800;
+    width: 375px;
+    height: 28px;
+    /*margin-left: 590px;
+    padding-top: 33px;*/
+    text-align: center;
+}
+
+#parrafo_act_aca {
+	 font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    width: 354px;
+    /*margin-left: 535px;
+    margin-top: 16px;*/
+}
+/*------------------------------------------------------PAGINA--ACTIVIDADES ACADEMICAS*/
+
+
+/*------------------------------------------------------PAGINA--ALUMNOS*/
+#contenedor_5 {
+	margin-top: 0px;
+	width: auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	padding: 35px 5px;
+	gap: 25px;
+    /*width: 1430px;*/
+    /*height: 600px;*/
+    background-color: #F2F2F2;
+}
+#cont_5{display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	gap: 25px;
+}
+.section_special{width: 100%; margin: 10px 0px; padding: 0px; height: auto;}
+.h2_act_aca {
+    color: #F2F2F2;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   /* margin-left: 90px;
+    margin-right: 200px;*/
+    text-align: center;
+    width: 311px;
+}
+/*------------------------------------------------------PAGINA--ALUMNOS*/
+
+
+
+/*.h2 {
+    padding-bottom: 24px;
+}*/
+
+#cont_4{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	gap: 25px;
+	width: 90%;
+}
+
+
+#derecho_3 {
+	width: auto;
+/*    float: right;*/
+	/*margin-right: 210px;
+    margin-top: 129px;*/
+}
+.valores {
+    font-size: 30px;
+    text-align: center;
+   /* margin-left: 160px;*/
+    padding-top: 42px;
+}
+#subti_respeto {
+    margin-bottom: 10px;
+}
+#button1 {
+    border-radius: 104px;
+    font-size: 30px;
+    text-align: center;
+    width: 36px;
+    float: left;
+    margin-top: 165px;
+    margin-left: 123px;
+    color: #F2F2F2;
+    background-color: #066AA5;
+}
+#button2 {
+/*    margin-top: 165px;
+    margin-left: 123px;*/
+   /* float: left;*/
+    color: #F2F2F2;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 104px;
+    background-color: #066AA5;
+    width: 36px;
+    border-style: none;
+}
+#cont_valor{
+	display: flex;
+	flex-direction: row;
+	gap:45px;
+	width: 60%;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	padding: 30px;
+	margin: 0px 30px;
+}
+#contenedor_4 {
+	margin-top: 0px;
+	width: auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+	justify-content: center;gap: 5px;
+	padding: 35px 5px;
+	
+    background-color: #F2F2F2;
+ /* width: 1430px;
+    height: 800px;*/
+}
+#titulo_form {
+    width: auto;
+	margin-bottom: 25px;
+/*    padding-top: 30px;
+    margin-left: 530px;*/
+}
+#parrafo_form {
+    text-align: center;
+    max-width: 280px;
+    height: 20px;
+    /* margin-left: 10px;*/
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    margin-left: 52px;
+}
+#h2_formatos {
+    text-align: center;
+    width: 100px;
+    margin-left: 136px;
+    margin-top: 5px;
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 300;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.iconos {
+    width: 145px;
+    height: auto;
+    margin-top: 18px;
+    margin-left: 49px;
+}
+
+#PDF1 {
+
+    width: 250px;
+    height: 251px;
+    background-color: #F0A83E;
+    /*margin-left: 130px;*/
+    border-radius: 15px;
+   /* margin-top: 30px;*/
+    -webkit-box-shadow: 10px 5px 20px #979797;
+    box-shadow: 10px 5px 20px #979797;
+}
+
+#PDF5 {
+    width: 250px;
+    height: 251px;
+    background-color: #F0A83E;
+   /* margin-left: 130px;*/
+    border-radius: 15px;
+    /*margin-top: 40px*/;
+    -webkit-box-shadow: 10px 5px 20px #979797;
+    box-shadow: 10px 5px 20px #979797;
+}
+#PDF6 {
+    width: 250px;
+    height: 251px;
+    background-color: #F0A83E;
+    /*margin-left: 441px;*/
+    border-radius: 15px;
+    /*margin-top: -250px;*/
+    -webkit-box-shadow: 10px 5px 20px #979797;
+    box-shadow: 10px 5px 20px #979797;
+    float: left;
+}
+#PDF3 {
+    width: 250px;
+    height: 251px;
+    background-color: #F0A83E;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 5px 20px #979797;
+    box-shadow: 10px 5px 20px #979797;
+    float: right;
+   /* margin-right: 438px;*/
+    /*margin-top: -250px;*/
+}
+#PDF7 {
+    width: 250px;
+    height: 251px;
+    background-color: #F0A83E;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 5px 20px #979797;
+    box-shadow: 10px 5px 20px #979797;
+    float: right;
+    /*margin-right: 438px;*/
+    /*margin-top: -250px;*/
+}
+#PDF4 {
+    width: 250px;
+    height: 251px;
+    background-color: #F0A83E;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 5px 20px #979797;
+    box-shadow: 10px 5px 20px #979797;
+    float: right;
+    /*margin-left: 512px;
+    margin-right: 130px;*/
+    /*margin-top: -250px;*/
+}
+#PDF2 {
+    width: 250px;
+    height: 251px;
+    background-color: #F0A83E;
+    /*margin-left: 438px;*/
+    border-radius: 15px;
+    float: left;
+    /*margin-top: -251px;*/
+    -webkit-box-shadow: 10px 5px 20px #979797;
+    box-shadow: 10px 5px 20px #979797;
+}
+.Text_PDF {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #F2F2F2;
+    width: 235px;
+    height: 38px;
+    text-align: center;
+    margin-top: 11px;
+    margin-left: 6px;
+}
+
+
+#contenedor_7 {
+    background-color: #F2F2F2;
+    /*width: 1430px;
+    height: 415px;*/
+}
+#imagen_5 {
+    width: 400px;
+    height: auto;
+/*    padding-top: 0px;
+    margin-top: -276px;*/
+    border-radius: 40px 15px 40px 40px;
+    -webkit-box-shadow: 10px 5px 20px #979797;
+    box-shadow: 10px 5px 20px #979797;
+   /* float: right;
+    margin-right: -720px;*/
+}
+#info_gen {
+	max-width: 960;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 25px;
+    width: auto;
+    height: auto;
+	padding: 35px 0px;
+ /*   padding-top: 51px;*/
+   /* float: left;
+    margin-left: 160px;*/
+}
+#info_gene{max-width: 35%;}
+#h2_infogen {
+    margin-bottom: 25px;
+}
+div ul li {
+    list-style-position: inside;
+}
+#instru{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap:25px;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	padding: 35px 0px;
+}
+#h3_instrum {
+    color: #066AA5;
+    width: auto;
+    text-align: center;
+ /*   margin-left: 530px;
+    margin-top: 40px;*/
+}
+#text_instru{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	padding: 35px;
+	
+}
+#text_instrum {
+    margin-left: 200px;
+    color: #F2F2F2;
+    text-align: center;
+    width: auto;
+    min-width: 170px;
+ /*   margin-left: 640px;
+    margin-top: 1px;*/
+}
+#text_instrum3 {
+    width: auto;
+    height: 17px;
+    /*float: left;*/
+    color: #F2F2F2;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+#instrumentos1 {
+    width: 140px;
+    /*float: left;*/
+    color: #F2F2F2;
+   /* margin-top: 15px;
+    margin-left: 270px;*/
+}
+#instrumentos2 {
+    width: 140px;
+  /*  float: left;*/
+    color: #F2F2F2;
+    /*margin-left: 110px;
+    margin-top: 15px;*/
+}
+#instrumentos3 {
+    width: 140px;
+    /*float: left;*/
+    color: #F2F2F2;
+/*    margin-left: 110px;
+    margin-top: 15px;*/
+}
+#instrumentos4 {
+    width: 140px;
+    /*float: left;*/
+    color: #F2F2F2;
+   /* margin-left: 110px;
+    margin-top: 15px;*/
+}
+/*#contenedor_8 {
+    width: 1430px;
+    height: 240px;
+}*/
+#imagen_6 {
+    width: 330px;
+    height: auto;
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+}
+#imagen_7 {
+    width: 330px;
+    height: auto;
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+}
+#imagen_8 {
+    width: 330px;
+    height: auto;
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+}
+#contenedor_9 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap:45px;
+	width: 100%;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	padding: 15px;
+	margin: 0px 0px;
+	background-color: #F2F2F2;
+    /*width: 1430px;
+    height: 565px;
+    
+    margin-top: 50px;
+    padding-top: 40px;*/
+}
+#Nivel1 {
+    width: 330px;
+    height: 430px;
+    background-color: #F0A83E;
+ /*   margin-left: 160px;*/
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+    -webkit-box-shadow: 10px 5px 20px #979797;
+    box-shadow: 10px 5px 20px #979797;
+    /*margin-top: 30px;*/
+}
+#Nivel2 {
+    width: 330px;
+    height: 430px;
+    background-color: #F0A83E;
+  /*  margin-left: 550px*/;
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+    -webkit-box-shadow: 10px 5px 20px #979797;
+    box-shadow: 10px 5px 20px #979797;
+    /*float: left;*/
+   /* margin-top: -428px;*/
+}
+#Nivel3 {
+    width: 330px;
+    height: 430px;
+    background-color: #F0A83E;
+    border-top-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+    -webkit-box-shadow: 10px 5px 20px #979797;
+    box-shadow: 10px 5px 20px #979797;
+    /*float: right;*/
+    /*margin-top: -428px;*/
+    /*margin-right: 160px;*/
+}
+#h3_inicial {
+    width: 100px;
+    color: #F2F2F2;
+    margin-left: 116px;
+    margin-top: 20px;
+}
+#h3_inicial2 {
+    width: 206px;
+    color: #F2F2F2;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+#h3_inicial3 {
+    width: 206px;
+    color: #F2F2F2;
+    margin-left: 65px;
+    margin-top: 20px;
+    text-align: center;
+}
+#texto_inicial {
+    color: #F2F2F2;
+    text-align: center;
+    width: 280px;
+    margin-left: 24px;
+    margin-top: 15px;
+}
+#texto_TPM {
+    color: #F2F2F2;
+    text-align: center;
+    width: 280px;
+    margin-left: 24px;
+    margin-top: 15px;
+}
+#texto_lic {
+    color: #F2F2F2;
+    text-align: center;
+    width: 280px;
+    margin-left: 24px;
+    margin-top: 15px;
+}
+
+
+
+
+#contenedor_10 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap:45px;
+	width: 100%;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	padding: 35px;
+	margin: 0px 0px;
+	
+    background-color: #F2F2F2;
+   /* width: 1423px;
+    height: 400px;*/
+}
+#contenedor_12 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap:45px;
+	width: 100%;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	padding: 35px;
+	margin: 0px 0px;
+	
+    background-color: #F2F2F2;
+  /*  width: 1423px;
+    height: 400px;*/
+}
+#contenedor_11 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap:45px;
+	width: 100%;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	padding: 35px;
+	margin: 0px 0px;
+	
+ /*   width: 1423px;
+    height: 400px;*/
+}
+#contenedor_13 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap:45px;
+	width: 100%;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	padding: 35px;
+	margin: 0px 0px;
+	
+ /*   width: 1423px;
+    height: 400px;*/
+}
+#mapa1 {
+    /*float: left;
+    margin-top: 49px;
+    margin-left: 160px;*/
+    -webkit-box-shadow: 10px 5px 20px #979797;
+    box-shadow: 10px 5px 20px #979797;
+    border-radius: 25px;
+}
+#mapa3 {
+    /*float: left;
+    margin-top: 49px;
+    margin-left: 160px;*/
+    -webkit-box-shadow: 10px 5px 20px #979797;
+    box-shadow: 10px 5px 20px #979797;
+    border-radius: 25px;
+}
+#mapa2 {
+    /*margin-top: 49px;*/
+    -webkit-box-shadow: 10px 5px 20px #066AA5;
+    box-shadow: 10px 5px 20px #066AA5;
+    border-radius: 25px;
+    /*float: right;
+    margin-right: 160px;*/
+}
+#mapa4 {
+    /*margin-top: 49px;*/
+    -webkit-box-shadow: 10px 5px 20px #066AA5;
+    box-shadow: 10px 5px 20px #066AA5;
+    border-radius: 25px;
+    /*float: right;
+    margin-right: 160px;*/
+}
+#campus1 {
+    /*float: right;
+    margin-right: 160px;
+    margin-top: 130px;*/
+    width: 385px;
+}
+#campus3 {
+    /*float: right;
+    margin-right: 160px;
+    margin-top: 130px;*/
+    width: 385px;
+}
+#campus2 {
+    /*margin-top: 130px;*/
+    width: 385px;
+    color: #F2F2F2;
+    /*float: left;
+    margin-left: 160px;*/
+}
+#campus4 {
+    /*margin-top: 130px;*/
+    width: 385px;
+    color: #F2F2F2;
+    /*float: left;
+    margin-left: 160px;*/
+}
+#h2_campus1 {
+    margin-bottom: 22px;
+
+}
+#h2_campus3 {
+    margin-bottom: 22px;
+
+}
+#h2_campus2 {
+    margin-bottom: 22px;
+
+}
+#h2_campus4 {
+    margin-bottom: 22px;
+
+}
